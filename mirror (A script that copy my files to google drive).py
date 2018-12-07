@@ -5,10 +5,6 @@ import requests
 import time
 from pathlib import Path
 
-"""This script auto-sync my document folder to google drive"""
-path1 = "~/.backup"
-path2 = "~/.backup2"
-
 def internet_is_on():	
     try:
        response = requests.get("http://www.google.com")
